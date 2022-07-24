@@ -38,12 +38,12 @@ public class Testacollections {
 		}*/
 		
 	
-		System.out.println(aulas.size());
+		//System.out.println(aulas.size());
 		
-		Collections.sort(aulas);//ordem crescente da lista....
-		System.out.println(aulas);
-		Collections.shuffle(aulas);//Lista embaralhada....
-		System.out.println(aulas);
+		//Collections.sort(aulas);//ordem crescente da lista....
+		//System.out.println(aulas);
+		//Collections.shuffle(aulas);//Lista embaralhada....
+		//System.out.println(aulas);
 	}
 
 

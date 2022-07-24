@@ -1,17 +1,14 @@
 package br.com.exercicio.atividade;
 
-public class atividade {
+public class Atividade {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-
-		Aviao av1 = new Aviao();
-		
-		av1.setModelo("Boing");
-		av1.ano= 2019;
+		Aviao av1 = new Aviao("Boing", 2022, 800);
 		
 		System.out.println("Aviao: " + av1.getModelo());
 		System.out.println(av1.ano);
+		
+		av1.decolar(10);
 	}
 
 }
